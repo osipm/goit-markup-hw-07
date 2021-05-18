@@ -1,77 +1,75 @@
 .footer {
     background-color: var(--blak-bg);
-}
-
-.footer__position {
     padding-top: 60px;
     padding-bottom: 60px;
-    display: inline-flex;
+
+&__position {
     display: flex;
     align-items: baseline;
-}
+};
 
-.footer__link {
+&__link {
     background-color: rgba(255, 255, 255, 0.1);
-}
+};
 
 
-.footer__icon {
+&__icon {
     fill: var(--main-title-cl);
-}
+};
 
-.footer__title {
+&__title {
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
     color: var(--main-title-cl);
     margin-bottom: 20px;
     text-align: left;
-}
+};
 
 
-.footer__contacts:not(:last-child) {
+&__contacts:not(:last-child) {
     margin-right: 70px;
-}
+};
 
 
 
-.footer__studio {
+&__studio {
     color: var(--main-title-cl)
-}
+};
 
-.footer__logo {
+&__logo {
     display: block;
     margin-bottom: 20px;
     margin-right: 0;
-}
+};
 
-.footer__mail-form {
+&__mail-form {
     display: flex;
     align-items: center;
-}
+};
 
-.footer__form {
+&__form {
     min-width: 570px;
     margin-left: auto;
-}
+};
 
-.footer__label {
+&__label {
     display: block;
     margin-bottom: 20px;
-}
+};
 
-.footer__mg-form {
+&__mg-form {
     display: flex;
     align-items: center;
     justify-content: center;
     border: 0;
-}
+};
 
-.footer__mg-form:not(:last-child) {
+&__mg-form:not(:last-child) {
     margin-right: 12px;
-}
+};
 
-.footer__input-mail {
+&__input {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -85,8 +83,13 @@
     line-height: 1.25px;
     color: rgba(255, 255, 255, 0.6);
     padding: 16px 15px;
+};
+
+&__input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+};
+
 }
 
-.footer__input-mail::placeholder {
-    color: rgba(255, 255, 255, 0.6);
-}
+
+
