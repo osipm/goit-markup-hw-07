@@ -1,6 +1,8 @@
 .team {@include section;
     background-color: var(--gray-bg);
 
+    &__container{@extend .container }
+
     &__list{@include card-set;};
 
     &__item {@include item;

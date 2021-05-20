@@ -2,9 +2,12 @@
     border: 1px solid #ECECEC;
     padding-top: 24px;
     padding-bottom: 25px;
-}
 
-.header .container {
+&__container {
+    @extend .container;
     display: flex;
     align-items: center;
 }
+
+}
+

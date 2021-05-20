@@ -11,21 +11,7 @@
     border-radius: 4px;
 }
 
-.btn__filtr {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    color: var(--title-cl);
-    border: 1px solid var(--border);
-    box-sizing: border-box;
-    background: var(--gray-bg);
-    border-radius: 4px;
-}
 
-.btn__filtr:not(:last-child) {
-    margin-right: 8px;
-}
 
 .btn__icon {
     width: 24px;

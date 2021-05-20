@@ -15,29 +15,29 @@
 
 <body>
    <header class="header">
-    <div class="container">
-      <a href="./index.html" class="link logo"><span class="logo__cl">Web</span>Studio</a>
+    <div class="header__container">
+      <a href="./index.html" class="logo"><span class="logo__cl">Web</span>Studio</a>
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="./index.html" class="link ">Студия</a>
+            <a href="./index.html" >Студия</a>
           </li>
           <li class="nav__item">
-            <a href="./portfolio.html" class="link nav__link-accent nav__link">Портфолио</a>
+            <a href="./portfolio.html" class="nav__link-accent nav__link">Портфолио</a>
           </li>
-          <li class="nav__item"><a href="" class="link">Контакты</a></li>
+          <li class="nav__item"><a href="">Контакты</a></li>
         </ul>
       </nav>
 
       <ul class="contacts">
         <li class="contacts__item">
-          <a class="link contacts__link" href="mailto:info@devstudio">
+          <a class="contacts__link" href="mailto:info@devstudio">
             <svg class="contacts__icon" width="16" height="12">
               <use href="./imeges/icons.svg#icon-envelope"></use>
             </svg>info@devstudio</a>
         </li>
         <li class="contacts__item">
-          <a class="link contacts__link" href="tel:+380961111111">
+          <a class="contacts__link" href="tel:+380961111111">
             <svg class="contacts__icon" width="10" height="16">
               <use href="./imeges/icons.svg#icon-smartphone"></use>
             </svg>+38 096 111 11 11</a>
@@ -49,22 +49,22 @@
   <!--секцыя шапка-->
   <main>
     <section class="portfolio">
-      <div class="container">
+      <div class="portfolio__container">
         <h1 class="visually-hidden">навігація</h1>
-        <ul class="portfolio__list">
-          <li class="btn__filtr"><button class="button" type="button">Все</a></button>
-          <li class="btn__filtr"><button class="button" type="button">Веб-сайты</a></button>
-          <li class="btn__filtr"><button class="button" type="button">Приложения</a></button>
-          <li class="btn__filtr"><button class="button" type="button">Дизайн</a></button>
-          <li class="btn__filtr"><button class="button" type="button">Маркетинг</a></button>
+        <ul class="filtr filtr__list">
+          <li class="filtr__item"><button class="filtr__button" type="button">Все</a></button>
+          <li class="filtr__item"><button class="filtr__button" type="button">Веб-сайты</a></button>
+          <li class="filtr__item"><button class="filtr__button" type="button">Приложения</a></button>
+          <li class="filtr__item"><button class="filtr__button" type="button">Дизайн</a></button>
+          <li class="filtr__item"><button class="filtr__button" type="button">Маркетинг</a></button>
         </ul>
 
         <h2 class="visually-hidden">портфоліо</h2>
-        <ul class="portfolio__card-set portfolio__list ">
+        <ul class="portfolio__list">
 
           <li class="portfolio__item">
             <a href="" class="portfolio__link">
-              <div class="portfolio__icon">
+              <div class="portfolio__tumb">
                 <img src="./imeges/img-portfolio/tehnokryik.jpg" alt="Технокряк" width="370" height="294" />
 
                 <p class="portfolio__overlov">Технокряк это современная площадка распространения коронавируса. Компании
@@ -79,7 +79,7 @@
           </li>
           <li class="portfolio__item">
             <a href="" class="portfolio__link">
-              <div class="portfolio__icon">
+              <div class="portfolio__tumb">
                 <img src="./imeges/img-portfolio/new-orlean.jpg" alt="Постер New Orlean vs Golden Star" width="370"
                   height="294" />
                 <p class="portfolio__overlov">Технокряк это современная площадка распространения коронавируса. Компании
@@ -94,7 +94,7 @@
           </li>
           <li class="portfolio__item">
             <a href="" class="portfolio__link">
-              <div class="portfolio__icon">
+              <div class="portfolio__tumb">
                 <img src="./imeges/img-portfolio/seafood.jpg" alt="Ресторан Seafood" width="370" height="294" />
                 <p class="portfolio__overlov">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу
@@ -108,7 +108,7 @@
           </li>
           <li class="portfolio__item">
             <a href="" class="portfolio__link">
-              <div class="portfolio__icon">
+              <div class="portfolio__tumb">
                 <img src="./imeges/img-portfolio/prime.jpg" alt="Проект Prime" width="370" height="294" />
                 <p class="portfolio__overlov">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу
@@ -122,7 +122,7 @@
           </li>
           <li class="portfolio__item">
             <a href="" class="portfolio__link">
-              <div class="portfolio__icon">
+              <div class="portfolio__tumb">
                 <img src="./imeges/img-portfolio/boxes.jpg" alt="Проект Boxes" width="370" height="294" />
                 <p class="portfolio__overlov">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу
@@ -136,7 +136,7 @@
           </li>
           <li class="portfolio__item">
             <a href="" class="portfolio__link">
-              <div class="portfolio__icon">
+              <div class="portfolio__tumb">
                 <img src="./imeges/img-portfolio/borders.jpg" alt="Inspiration has no Borders" width="370"
                   height="294" />
                 <p class="portfolio__overlov">Технокряк это современная площадка распространения коронавируса. Компании
@@ -151,7 +151,7 @@
           </li>
           <li class="portfolio__item">
             <a href="" class="portfolio__link">
-              <div class="portfolio__icon">
+              <div class="portfolio__tumb">
                 <img src="./imeges/img-portfolio/limited.jpg" alt="Издание Limited Edition" width="370" height="294" />
                 <p class="portfolio__overlov">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу
@@ -165,7 +165,7 @@
           </li>
           <li class="portfolio__item">
             <a href="" class="portfolio__link">
-              <div class="portfolio__icon">
+              <div class="portfolio__tumb">
                 <img src="./imeges/img-portfolio/lab.jpg" alt="Проект LAB" width="370" height="294" />
                 <p class="portfolio__overlov">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу
@@ -179,7 +179,7 @@
           </li>
           <li class="portfolio__item">
             <a href="" class="portfolio__link">
-              <div class="portfolio__icon">
+              <div class="portfolio__tumb">
                 <img src="./imeges/img-portfolio/growing.jpg" alt="Growing Business" width="370" height="294" />
                 <p class="portfolio__overlov">Технокряк это современная площадка распространения коронавируса. Компании
                   используют эту платформу
@@ -198,21 +198,21 @@
   <!--футер-->
 
   <footer class="footer">
-    <div class="container footer__position">
+    <div class="footer__container">
       <div class="footer__contacts">
-        <a href="./index.html" class="link logo footer__logo"><span class="logo__cl">Web</span><span
+        <a href="./index.html" class="logo footer__logo"><span class="logo__cl">Web</span><span
             class="footer__studio">Studio</span></a>
         <address class="address">
           <ul class="address__list">
             <li class="address__item">
-              <a class="link address__link" href="https://goo.gl/maps/qqkzdERcKgFT37uT7" target="_blank"
+              <a class="address__link" href="https://goo.gl/maps/qqkzdERcKgFT37uT7" target="_blank"
                 rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
             </li>
             <li class="address__item">
-              <a class="link address__contacts" href="mailto:info@devstudio">info@devstudio</a>
+              <a class="address__contacts" href="mailto:info@devstudio">info@devstudio</a>
             </li>
             <li>
-              <a class="link address__contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="address__contacts" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
         </address>

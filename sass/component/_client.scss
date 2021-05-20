@@ -1,5 +1,7 @@
 .client{@include section;
 
+    &__container{@extend .container }
+
     &__list{display: inline-flex;};
 
     &__item:not(:last-child) {

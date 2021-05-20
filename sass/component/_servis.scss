@@ -1,6 +1,10 @@
 .servis{
     padding-bottom: 94px;
 
+    &__container {
+        @extend .container
+    };
+
     &__list{@include card-set;};
 
     &__item {@include item;

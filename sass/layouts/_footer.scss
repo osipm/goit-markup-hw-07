@@ -3,7 +3,8 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
-&__position {
+&__container {
+    @extend .container;
     display: flex;
     align-items: baseline;
 };
